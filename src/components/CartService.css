@@ -157,13 +157,43 @@
   background-color: #0056b3;
 }
 
-.remove-btn {
+/* .remove-btn {
   margin-top: 10px;
   color: #ff4d4d;
   background: none;
   border: none;
   cursor: pointer;
+} */
+
+
+
+
+.remove-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  background-color: #ff4d4d; /* Bright red color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+.remove-btn:hover {
+  background-color: #e60000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.remove-btn:active {
+  background-color: #cc0000; /* Even darker red on click */
+  transform: scale(0.95); /* Pressed button effect */
+}
+
+
+
+
+
 
 .price-breakdown {
   margin-bottom: 20px;
